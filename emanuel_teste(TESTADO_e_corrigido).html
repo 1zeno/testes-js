@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Aula de Testes</title>
+    </head>
+<body>
+    <h2>Emanuel</h2>
+</body>
+<script>
+
+function par(numero) {
+    if(Number.isInteger(numero)){
+        if(numero%2===0 && !"" ){
+            return true;
+        } else {
+            return false;
+        }   
+    } else {
+        console.log("número inválido")
+        return false;
+    }
+}
+
+console.log(par(1) == false);
+console.log(par(3) == false);
+console.log(par("2") == false);
+console.log(par("1") == false);
+console.log(par(34) == false);
+console.log(par(5897) == false);
+console.log(par(8765) == false);
+console.log(par(-755) == false);
+console.log(par(37.2) == false);
+console.log(par(2.2) == false);
+console.log(par (-2.1) == false);
+console.log(par(x) == false);
+
+/* console.log("testado por BIG HAMILTON") */
+</script>
+</html>
